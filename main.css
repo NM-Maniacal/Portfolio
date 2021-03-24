@@ -15,6 +15,8 @@ body
     position: fixed;
     width: 100%;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
     /* display: block; */
     background-color: #42455a;
     /* position: fixed; */
@@ -292,7 +294,11 @@ body
         grid-template-columns: auto;
         grid-gap: 10px;
     } */
+    .RightHead h1{
+    font-size: 10px;
+    }
     .Navigation a li{
+        font-size: 10px;
         display: table;
         vertical-align: middle;
     }
